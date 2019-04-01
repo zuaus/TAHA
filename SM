@@ -1,3 +1,8 @@
-killall screen
-screen ./STORM.sh
-echo -e "STORM IS RUN BOT"
+#!/bin/bash
+
+while(true) do
+
+./tg -s ./cli.lua
+
+done
+
